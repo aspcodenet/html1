@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakta oss</title>
+</head>
+<body>
+    <h1>Kontakta oss helst inte...</h1>
+    <form method="post" action="https://formshow.systementor.se">
+        <label for="personnamn" >Ange ditt namn</label>
+        <input type="text" name="personnamn"  id="personnamn" />
+
+        <label for="email" >Ange din epost</label>
+        <input type="email" name="email"  id="email" />
+
+        <label for="datum" >Ange datum  för klippning</label>
+        <input type="date" name="datum"  id="datum" />
+
+        <label for="datumochtid" >Ange datum  och tid för klippning</label>
+        <input type="datetime-local" name="datumochtid"  id="datumochtid" />
+
+        <label for="age" >Ange ålder</label>
+        <input type="number" min="0" max="100" name="age"  id="age" />
+
+        <label for="message">Ange meddelande</label>
+        <textarea  name="message" id="message" cols="40" rows="4"></textarea>
+
+        <label for="position">Position</label>
+        <select id="position" name="position">
+            <option>Välj tack!</option>    
+            <option>Goalie</option>
+            <option>Defence</option>
+            <option>Forward</option>
+        </select>
+
+        <label for="ok">Jag godkänner</label>
+        <input type="checkbox" name="ok" id="ok" />
+
+        <label for="position2">Position2</label>
+        <input type="radio" name="position2" id="goalie value="Goalie" />
+            <label for="goalie">Goalie</label>
+        <input type="radio" name="position2" id="Defence" value="Defence" />
+            <label for="Defence">Defence</label>
+        <input type="radio" name="position2" id="Forward" value="Forward" />
+            <label for="Forward">Forward</label>
+
+
+
+            <label for="position2">Position2</label>
+            <select id="intressen" name="intressen" multiple>
+                <option>Hockey</option>    
+                <option>Fotboll</option>
+                <option>Basket</option>
+                <option>Orientering</option>
+            </select>
+        
+
+
+
+
+        <input type="submit" value="Skicka" />
+    </form>            
+</body>
+</html>
